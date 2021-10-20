@@ -18,13 +18,13 @@ public class Ejercicio2 {
 		//Se crea un arreglo el cual tiene como tamaño el valor guardado en la variable tam.
 		int [] array = new int [tam];
 		//Se llaman los métodos de la clase.
-		LlenarArray(array, 0, 9); //Dentro de este método ya se ingresan dos valores.
+		Llenar(array, 0, 9); //Dentro de este método ya se ingresan dos valores.
 		MostrarArray(array);
 
 	}
 	
 	//Se crea un método que pide el tamaño del arreglo y los número que se generaran entre ese rango.
-	public static int [] LlenarArray(int [] array, int a, int b) {
+	public static int [] Llenar(int [] array, int a, int b) {
 		for(int i=0; i<array.length; i++) {
 			array[i] = (int) Math.floor(Math.random()*(a-b)+b);
 		}
