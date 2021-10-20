@@ -3,7 +3,6 @@ package Bidimencionales;
 //con números aleatorios entre 0 y 9, al final muestra por pantalla el valor de cada posición y la suma de todos los valores. 
 //Haz un método para rellenar el array (que tenga como parámetros los números entre los que tenga que generar), para mostrar 
 //el contenido y la suma del array y un método privado para generar número aleatorio (lo puedes usar para otros ejercicios).
-
 import java.util.Scanner;
 public class Ejercicio2 {
 	
