@@ -10,7 +10,7 @@ import java.util.Scanner;
 //5 Añadira la ‘F’
 //25 Añadira la ‘Z’
 //50 Error, inserte otro numero
-//-1 fin
+//1 fin
 
 //Cadena resultante: AFZ
 public class Ejercicio4 {
