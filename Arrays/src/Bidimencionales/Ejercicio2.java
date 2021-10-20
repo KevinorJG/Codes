@@ -42,6 +42,7 @@ public class Ejercicio2 {
 			//se guardará en la variable suma.
 			suma+=array[i];
 		}
+		
 		System.out.println("La suma de los elementos del arreglo es: "+suma);
 	}
 
