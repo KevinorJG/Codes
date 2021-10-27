@@ -8,15 +8,15 @@ public class Ejercicio1 {
 
 	public static Scanner x = new Scanner(System.in);	
 	
-	
+
 	public static void main(String[] args) {
 		//Se crea un arreglo bidimencional de 10 espacio. Se asigna espacio en memoria.
-		int [] array = new int [10];
+		int [] arreglo = new int [10];
 		
 		//Se manda a llamar a los métodos dentro de la misma clase "Ejercicio1".
-		LLenarArray(array);
+		LLenarArray(arreglo);
 		System.out.println(" ");
-		MostrarArray(array);
+		MostrarArray(arreglo);
 		
 	}
 	
