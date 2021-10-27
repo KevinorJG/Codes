@@ -2,7 +2,6 @@
 package Bidimencionales;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
 
 public class Ejercicio6 {
 	
