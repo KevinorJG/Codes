@@ -11,11 +11,10 @@ public class DNI {
 	public static void main(String[] args) {
 	
 		int DNI; //Se crea la variable para guardar el valor que se ingrese por teclado.
-		
-		System.out.print("Ingrese su DNI de 8 números:");
+		int tam [];
+		System.out.print("Ingrese su DNI de 8 dígitos:");
 		DNI = x.nextInt(); 
-		ObtenerLetra(DNI); //Se llama al método y se le otorgo la variable DNI como dato.
-		
+		ObtenerLetra(DNI); //Se llama al método y se le otorgo la variable DNI como dato.	
 	}
 	
 	public static void ObtenerLetra(int numeroDNI) {
@@ -26,8 +25,6 @@ public class DNI {
 		char letra = list[calculo]; //Variable de tipo Char que guarda la posición en la que se encuentra el caracter
 									//Dentro del arreglo list se le da el valor de la variable calculo, y esta posicionará al espacio donde se guardó el caracter.
 		System.out.println(numeroDNI+""+letra);
-
-		
 	}
 
 }
