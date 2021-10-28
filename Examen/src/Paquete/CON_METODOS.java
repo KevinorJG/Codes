@@ -8,7 +8,6 @@ public class CON_METODOS {
 		int [] array = new int [longitud];
 		for(int i=0; i<array.length; i++) {
 			array[i]=(int)(Math.random() * 100+1)*(int)Math.pow((-1),(int)(Math.random() * 2)+1);		
-			
 		}
 		return array;
 	}
@@ -23,7 +22,6 @@ public class CON_METODOS {
 	public static int CalcularMayores(int [] array) {
 		int M=0;
 		for(int i=0; i<array.length; i++) {
-			
 			if(array[i] > 0) {
 				M++;
 			}
@@ -34,7 +32,6 @@ public class CON_METODOS {
 	public static int CalcularMenores(int [] array) {
 		int N=0;
 		for(int i=0; i<array.length; i++) {
-			
 			if(array[i] < 0) {
 				N++;
 			}
