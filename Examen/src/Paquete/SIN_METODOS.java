@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SIN_METODOS {
 public static Scanner x = new Scanner(System.in);
 	public static void main(String[] args) {
-		int max = 100, min= 1, range = max - min+1;
 		int pos = 0, pos2 = 0, contadorN=0, contadorM=0;
 		int [] arreglo;
 		int [] Mayores;
@@ -14,7 +13,7 @@ public static Scanner x = new Scanner(System.in);
 		arreglo = new int [tam];
 		
 		for(int i=0; i<arreglo.length; i++) {
-			arreglo[i]=(int)(Math.random() * range)*(int)Math.pow((-1),(int)(Math.random() * 2)+1);		
+			arreglo[i]=(int)(Math.random() * 100+1)*(int)Math.pow((-1),(int)(Math.random() * 2)+1);		
 			
 		}
 		
