@@ -3,8 +3,6 @@ package POO;
 import javax.swing.JOptionPane;
 
 public class Main {
-
-	boolean op = true;
 	public static void main(String[] args) {
 		
 		Operaciones_ClasePadre x = new Suma_Hija();
