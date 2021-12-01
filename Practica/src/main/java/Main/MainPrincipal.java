@@ -17,6 +17,7 @@ public class MainPrincipal {
         int i = 2, j = 3;
         
         System.out.println("La suma es: "+(i+j));
+        System.err.println("Error 34342543");
                 
     }
     
